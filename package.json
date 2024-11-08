@@ -1,0 +1,31 @@
+
+{
+  "name": "autolisp-outline-extension",
+  "displayName": "AutoLISP OUTLINE Extension",
+  "description": "A VSCode extension to identify AutoLISP commands, functions and display them in the OUTLINE.",
+  "version": "1.0.0",
+  "publisher": "Syed Faheemuddin",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Programming Languages"],
+  "extensionDependencies": ["Autodesk.autolispext"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdfaheemuddin/autolisp-outline-extension.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "autolisp",
+        "aliases": ["AutoLISP", "lisp"],
+        "extensions": [".lsp"]
+      }
+    ],
+    "documentSymbolProviders": ["./src/extension.js"]
+  },
+  "activationEvents": ["onLanguage:autolisp"],
+  "main": "./src/extension.js",
+  "keywords": ["AutoLISP", "outline", "symbols", "lisp"],
+  "license": "MIT"
+}
