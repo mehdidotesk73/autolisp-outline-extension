@@ -13,7 +13,7 @@ This extension is specifically useful for AutoCAD users who work with AutoLISP f
 
 ## Installation
 To install this extension:
-1. Download and install the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/).
+1. Download and install the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/publishers/sdfaheemuddin).
 2. Open a `.lsp` file, and you should see the commands and functions listed in the Outline view.
 
 ## How to Use
@@ -28,13 +28,8 @@ You can find the source code and contribute to the project on GitHub:
 ## Contact
 Feel free to connect with me for any feedback, suggestions, or queries!
 
-- **Name**: syed Faheemuddin
-- **LinkedIn**: [sdfaheemuddin](https://www.linkedin.com/in/sdfaheemuddin/)
-- **Email**: sd.faheemuddin@gmail.com
+- **Email**: [sd.faheemuddin@gmail.com](mailto:sd.faheemuddin+vsce@gmail.com)
+- **LinkedIn**: [Syed Faheemuddin](https://www.linkedin.com/in/sdfaheemuddin/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Changelog
-### v1.0.0
-- Initial release: Added support for detecting AutoLISP symbols in `.lsp` files.

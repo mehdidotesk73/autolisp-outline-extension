@@ -3,8 +3,9 @@
   "name": "autolisp-outline-extension",
   "displayName": "AutoLISP OUTLINE Extension",
   "description": "A VSCode extension to identify AutoLISP commands, functions and display them in the OUTLINE.",
-  "version": "1.0.0",
-  "publisher": "Syed Faheemuddin",
+  "version": "1.0.1",
+  "icon": "./logo.png",
+  "publisher": "sdfaheemuddin",
   "engines": {
     "vscode": "^1.70.0"
   },
