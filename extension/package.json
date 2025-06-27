@@ -13,7 +13,7 @@
   "extensionDependencies": ["Autodesk.autolispext"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/mehdidotesk73/autolisp-outline-extension/"
   },
   "contributes": {
     "languages": [
