@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 
 /**
- * AutoLISP Outline Provider with Robust Recursive Parsing
+ * AutoLISP Outline Provider with Recursive Parsing
  */
 function activate(context) {
     vscode.languages.registerDocumentSymbolProvider({ language: 'autolisp' }, {
